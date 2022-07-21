@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import SkeletonArticle from './skeleton/skeletonarticle'
-import SkeletonElement from './skeleton/skeletonElement'
-import SkeletonProfile from './skeleton/skeletonprofile'
+import SkeletonArticle from './component/skeleton/skeletonarticle'
+import SkeletonProfile from './component/skeleton/skeletonprofile'
 
 const Front = () => {
   const [article, setArticle] = useState(null)
