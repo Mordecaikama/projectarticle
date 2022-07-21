@@ -1,0 +1,120 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ 
+ 
+.front{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.front .articles{
+    flex-basis: 3;
+    /* border: 1px solid; */
+    width: 80%;
+}
+
+.articles h2 {
+    font-size: 1.5em;
+    color: #719de3;
+}
+
+.article {
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.front .profile{
+    flex-basis: 1;
+    /* border: 1px solid; */
+    /* align-items: center; */
+}
+
+.front .profile .wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center; 
+    /* padding: 10px; */
+}
+
+
+
+.front .img-container{
+    margin-right: 5px;
+}
+
+.img-container img{
+    width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  padding: 10px
+}
+
+.front .front-wrapper{
+    border: 10px solid #073b8a;
+    width: 300px;
+    height: 500px;
+    border-radius: 15% 15% 20% 20%;
+    background: #073b8a;
+    overflow: hidden;
+}
+
+.screen{
+    height: 80%;
+    background: #3473d1;
+    border-radius: 0% 0% 20px 20px;
+    border-bottom: 1px solid white;
+    z-index: 999;
+    /* border: 5px solid */
+    /* background: url('./img/bg.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
+
+
+.bottom{
+    height: 20%;
+    background: transparent;
+    /* padding: 10px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bottom .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.05em solid #d4d7d9;
+    width: 60px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    box-shadow: -1px -1px 30px -22px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px -1px 30px -22px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -1px 30px -22px rgba(0,0,0,0.75);
+    /* grid-gap:5px; */
+}
+
+.bottom .card:hover{
+    transform: scale(1.2,1.2);
+    background: #51ace8;
+    font-size: 1em;
+}
+
+
+
+
+
+
+
