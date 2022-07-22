@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/projectarticle.git/static/css/main.5b3d1102.css",
-    "main.js": "/projectarticle.git/static/js/main.eff9ec0c.js",
-    "index.html": "/projectarticle.git/index.html",
-    "main.5b3d1102.css.map": "/projectarticle.git/static/css/main.5b3d1102.css.map",
-    "main.eff9ec0c.js.map": "/projectarticle.git/static/js/main.eff9ec0c.js.map"
+    "main.css": "/projectarticle/static/css/main.5b3d1102.css",
+    "main.js": "/projectarticle/static/js/main.eff9ec0c.js",
+    "index.html": "/projectarticle/index.html",
+    "main.5b3d1102.css.map": "/projectarticle/static/css/main.5b3d1102.css.map",
+    "main.eff9ec0c.js.map": "/projectarticle/static/js/main.eff9ec0c.js.map"
   },
   "entrypoints": [
     "static/css/main.5b3d1102.css",
